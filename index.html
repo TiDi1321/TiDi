@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!--[if lt IE 9]>
+    	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!-- container-fluid (width 100%) -> row(1 section) -> col-6 -->
+
+	<!-- margin -->
+<!-- 	mx-1
+	mr-1
+	ml-1
+	mt-1
+	mb-1
+	m-1 -->
+	<header class="header py-3">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6 text-white text-center text-md-left">
+					<span>0902496647</span>
+					<i class="fas fa-mobile-alt mx-1"></i>
+
+					<span>htdai10@gmail.com</span>
+				</div>
+				<div class="col-6 text-center text-md-right">
+					<i class="fab fa-facebook text-danger"></i>	
+					<i class="fab fa-twitter-square text-light"></i>
+				</div>
+			</div>
+		</div></header>
+
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-dark navbar--config p-0 "> <!-- p-0 => border của item full -->
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand p-0">
+				<img src="img/logo.png" class="img-fluid" alt="">
+			</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target=".myMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="myMenu navbar-collapse collapse">
+				<ul class="navbar-nav ml-auto "> <!-- ml-auto: canh le trai => align phai -->
+					<li class="nav-item p-2">
+						<a href="#" class="nav-link text-white">Vehicle</a>
+					</li>
+					<li class="nav-item p-2 border-left">
+						<a href="#" class="nav-link text-white">Shopping tour</a>
+					</li>
+					<li class="nav-item p-2 border-left dropdown">
+						<a href="#" class="nav-link font-weight-bold" data-toggle="dropdown">Owner <i class="fas fa-angle-down"></i></a>
+						<div class="dropdown-menu animated fadeInUp">
+							<a href="#" class="dropdown-item">Menu 1</a>
+							<a href="#" class="dropdown-item">Menu 2</a>
+							<a href="#" class="dropdown-item">Menu 3</a>
+							<a href="#" class="dropdown-item">Menu 4</a>
+						</div>
+					</li>
+					<li class="nav-item p-2 border-left">
+						<a href="#" class="nav-link">Discover</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="carousel"></section>
+
+	<!-- breadcrumb -->
+	<section>
+		<div class="container"> <!-- container:width 1140px -->
+			<div class="row">
+				<div class="col-12">
+					<ol class="breadcrumb bg-white">
+						<li class="breadcrumb-item active">Home</li>
+						<li class="breadcrumb-item">Products</li>
+						<li class="breadcrumb-item">Detail</li>
+					</ol>
+				</div>
+			</div>
+		</div></section>
+
+	<section class="intro">
+		<h1 class="text-center display-1">Intro</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 mb-3">
+					<div class="intro-1 d-flex align-items-center justify-content-center">
+						<p class=" text-success lead font-italic text-uppercase">Lorem ipsum dolor sit amet.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<div class="intro-2 d-flex align-items-center justify-content-center">
+						<p class=" text-warning lead font-italic text-capitalize">Lorem ipsum dolor sit amet.</p> <!-- lead:tang font-size, giam font-weight -->
+					</div>
+				</div>
+			</div>
+		</div></section>
+
+	<section class="product">
+		<h1 class="text-center display-1">Products</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<div class="card border-primary mb-3">
+						<img src="img/xe-1.png" class="img-fluid" alt="">
+						<div class="card-body">
+							<h3 class="card-title text-center mb-0 mb-sm-1 mb-lg-1">Sedan
+								<span class="badge badge-primary badge-pill">5</span></h3>
+							<span class="card-subtitle">Lorem ipsum dolor sit amet.</span>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sequi.</p>
+							<button class="btn btn-primary">Explore</button>
+							<button class="btn btn-outline-primary">Build</button>
+						</div>
+					</div>
+				</div>
+					<div class="col-sm-6 col-lg-4">
+					<div class="card border-primary mb-3">
+						<img src="img/xe-1.png" class="img-fluid" alt="">
+						<div class="card-body">
+							<h3 class="card-title text-center mb-0 mb-sm-1 mb-lg-1">Sedan
+								<span class="badge badge-primary badge-pill">5</span></h3>
+							<span class="card-subtitle">Lorem ipsum dolor sit amet.</span>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sequi.</p>
+							<button class="btn btn-primary">Explore</button>
+							<button class="btn btn-outline-primary">Build</button>
+						</div>
+					</div></div>
+					<div class="col-sm-6 col-lg-4">
+					<div class="card border-primary mb-3">
+						<img src="img/xe-1.png" class="img-fluid" alt="">
+						<div class="card-body">
+							<h3 class="card-title text-center mb-0 mb-sm-1 mb-lg-1">Sedan
+								<span class="badge badge-primary badge-pill">5</span></h3>
+							<span class="card-subtitle">Lorem ipsum dolor sit amet.</span>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sequi.</p>
+							<button class="btn btn-primary">Explore</button>
+							<button class="btn btn-outline-primary">Build</button>
+						</div>
+					</div></div>
+					<div class="col-sm-6 col-lg-4">
+					<div class="card border-primary mb-3">
+						<img src="img/xe-1.png" class="img-fluid" alt="">
+						<div class="card-body">
+							<h3 class="card-title text-center mb-0 mb-sm-1 mb-lg-1">Sedan
+								<span class="badge badge-primary badge-pill">5</span></h3>
+							<span class="card-subtitle">Lorem ipsum dolor sit amet.</span>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, sequi.</p>
+							<button class="btn btn-primary">Explore</button>
+							<button class="btn btn-outline-primary">Build</button>
+						</div>
+					</div></div>
+				</div>
+				<div class="col-12 d-block d-md-flex justify-content-between">
+					<div class="btn-group">
+			<button class="btn btn-success">Success</button>
+			<button class="btn btn-info">Info</button>
+			<button class="btn btn-dark">Dark</button>
+			<button class="btn btn-primary">Primary</button>
+			<button class="btn btn-warning">Warning</button>
+		</div>
+		<nav>
+			<ul class="pagination">
+				<li class="page-item">
+					<a href="#" class="page-link">Previous</a></li>
+					<li class="page-item"><a href="#" class="page-link">1</a></li>
+					<li class="page-item"><a href="#" class="page-link">2</a></li>
+			</ul>
+			</nav>
+		</div>
+	</div></section>
+
+	<section class="contact mt-3 text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="bg-success contact-detail p-2 rounded">
+						<h3>Thông tin liên lạc</h3>
+						<p>Địa chỉ: Tp HCM</p>
+						<p>0123456789</p>
+						<p>Email: dai@gmail.com</p>
+				</div>
+				</div>
+				<div class="col-lg-8">
+					<div class="form-contact">
+						<div class="card bg-info">
+							<div class="card-header">
+								<h4 class="display-4 text-center">Form Resgiter</h4>
+							</div>
+							<div class="card-body">
+								<form action="">
+									<div class="form-group">
+										<label for="name">Name</label> <!-- for="name" chỉ đi với id="name" -->
+										<input type="text" id="name" class=" form-control" placeholder="Enter your name"></div>
+									<div class="form-group">
+										<label for="email">Email</label> <!-- for="name" chỉ đi với id="name" -->
+										<input type="email" id="email" class=" form-control" placeholder="Enter your email">
+										<div class="alert alert-danger mt-2">Email khong dung dinh dang</div>
+									</div>
+									<div class="form-group">
+										<label for="phone">Phone number</label> <!-- for="name" chỉ đi với id="name" -->
+										<input type="number" id="phone" class=" form-control" placeholder="Enter your phone"></div>
+									<div class="form-group d-flex">
+										<label for="name">You are: </label> 
+										<div class="form-check ml-3">
+											<label class="form-check-label">
+												<input type="radio" name="job" class="form-check-input">Student
+											</label>
+										</div>
+										<div class="form-check ml-3">
+											<label class="form-check-label">
+												<input type="radio" name="job" class="form-check-input">Engineer
+											</label>
+										</div>
+										<div class="form-check ml-3">
+											<label class="form-check-label">
+												<input type="radio" name="job" class="form-check-input">Worker
+											</label>
+										</div>
+
+									</div>
+									<div class="form-group">
+											<label for="">Hobby: </label>
+											<textarea class="form-control" rows="5" placeholder="Enter yout hobby..."></textarea>
+									</div>
+									<div class="text-center">
+										<button type="submit" class="btn btn-warning">Send</button>
+									</div>
+								</form>
+							</div>
+							<div class="card-footer text-center">
+								<p>Thank you</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- COMMENT -->
+	<section class="comment mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="media comment-item bg-primary">
+						<img src="img/person1.jpg" alt="" class="rounded-circle">
+						<div class="media-body ml-2">
+							<h5>TiDi</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta commodi officia similique dolores totam incidunt, aperiam eos deserunt laudantium sed, dolorum est doloremque laboriosam aliquid!.</p>
+
+							<div class="media">
+								<img src="img/person2.jpg" alt="" class="rounded-circle">
+								<div class="media-body ml-2">
+									<h5>TiDi</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta commodi officia similique dolores totam incidunt, aperiam eos deserunt laudantium sed, dolorum est doloremque laboriosam aliquid!.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="demo"></div>
+
+
+	<script type="text/javascript" src="js/jquery-slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">new WOW().init()</script>
+</body>
+</html>

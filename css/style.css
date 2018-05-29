@@ -1,0 +1,102 @@
+body{
+	margin:0;
+	padding:0;
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+    box-sizing: border-box;
+}
+div{
+	box-sizing: border-box;
+}
+html{
+	font-size:20px;
+}
+
+.header{
+	background-color: #036aa6;
+
+}
+
+.navbar--config{
+	background-color: #007cc3;
+}
+
+.carousel{
+	height: 500px;
+	background-image: url(../img/banner-3.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro-1,.intro-2{
+	height: 300px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.intro-1{
+	background-image: url(../img/intro-3.jpg);
+}
+
+.intro-2{
+	background-image: url(../img/intro-4.jpg);
+}
+
+.media.comment-item img{
+	width: 100px;
+	height: 100px;
+}
+
+
+.demo{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+}
+
+@media screen and (max-width:576px){
+	.demo{
+		background-color:red;
+	}
+}
+
+@media screen (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.carousel{
+		height: 350px;
+	}
+}
+
+/*@media screen and (max-width: 992px) {
+	.carousel{
+		height: 350px;
+	}
+}*/
+
+@media screen and (max-width: 768px) {
+	.navbar .nav-item{
+		border-left: none !important;
+	}
+
+	.carousel{
+		background-image: url(../img/banner-3-xs.jpg);
+		background-position: center center;
+	}
+	.intro h1{
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.navbar .nav-item{
+		border-left: none !important;
+	}
+
+	.intro h1{
+		font-size: 25px;
+	}
+}
